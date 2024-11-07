@@ -1,0 +1,119 @@
+body{
+    font-family: "Work Sans", sans-serif;
+}
+
+.hero{
+    background-image: url(../img/bg-hero.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.brand img{
+    width: 160px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.login{
+    display: flex;
+    gap: 20px;
+}
+
+.login button{
+    background-color: #D81F26;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    height: 48px;
+    font-weight: 700;
+}
+
+.login select, .filter select{
+    height: 48px;
+    font-size: 18px;
+    width: 220px;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.title h1{
+    color: white;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.title h4{
+    font-size: 26px;
+    color: white;
+}
+
+.title p{
+    font-size: 20px;
+    color: white;
+}
+
+.subscribe input{
+    height: 48px;
+    font-size: 18px;
+    width: 320px;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+}
+
+.subscribe button{
+    background-color: #D81F26;
+    color: white;
+    border: 1px solid #D81F26;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    height: 48px;
+    font-weight: 700;
+}
+
+h2{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.catalogue{
+    background-color: black;
+    padding: 60px 0;
+}
+
+.filter{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.toplist{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
